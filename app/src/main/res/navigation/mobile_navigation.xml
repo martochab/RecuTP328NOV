@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/menuPanelRecycle">
+
+    <fragment
+        android:id="@+id/menuPanelRecycle"
+        android:name="com.example.recutp328nov.RecycleFragment"
+        android:label="Recycle"
+        tools:layout="@layout/fragment_recycle" />
+
+    <fragment
+        android:id="@+id/menuPanelVacio"
+        android:name="com.example.recutp328nov.VacioFragment"
+        android:label="Vacio"
+        tools:layout="@layout/fragment_vacio" />
+
+</navigation>
